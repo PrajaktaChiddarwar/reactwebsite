@@ -29,7 +29,7 @@ jobs:
         - name: Deploy to Github pages
           uses: JamesIves/github-pages-deploy-action@v4.1.0
           with:
-            branch: gh-pages
+            branch: main
             folder: build
 
         - name: SonarQube Scan
